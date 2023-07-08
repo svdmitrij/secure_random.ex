@@ -1,5 +1,5 @@
 defmodule SecureRandom do
-  use Bitwise
+  import Bitwise
 
   @moduledoc """
   Takes my favorite hits from Ruby's SecureRandom and brings em to elixir.
